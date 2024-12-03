@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 183, 0);
+
+
+}
+
+.icon {
+    font-size: xxx-large;
+
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 230, 0);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 64%;
+    justify-content: center;
+    gap: 80px;
+}
+
+.searchbar {
+    display: flex;
+    width: 15%;
+    height: 60%;
+    background-color: pink;
+
+}
+
+.lens {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input {
+    height: 100%;
+    width: 85%;
+    font-size: larger;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+}
+
+.navbar .searchbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list_items {
+    border: transparent 1.5px;
+    padding: 1%;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_items:hover {
+    border: 1.5px solid white;
+    
+}
+
+.main {
+    background-color: rgb(255, 208, 0);
+    width: 100%;
+    height: 700px;
+}
+
+.icons:nth-child(1):hover {
+    filter: drop-shadow(#050505)
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+
+}
+
+.text {
+    width: 60%;
+    height: 700px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.dog {
+
+    width: 40%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    font-size: xx-large
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    margin: 30px 30px 30px 0px;
+    border: none;
+    border-radius: 8px;
+
+    border:  transparent 2px solid white;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+   
+
+}
+.two{
+    background-color: rgb(255, 140, 0);
+}
+.button:hover{ border:  2px solid white; }
+.banner_two{    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+
+
+}
+.partition{
+    width: 20%;
+    height: 400px;
+    background-color: #ffffff;
+    
+    
+}
+.images{
+    width: 50%;
+    height:50%;
+    background-color: black;
+    
+
+}
+.images_two{width: 381px;
+    height: 200px
+    
+}
+.partition:hover{box-shadow: 0px 0px 12px 1px;}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot{
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.footer_two{
+    
+    width: 50%;
+    height: 150px;
+    background-color: black
+}
+.footer_one{
+    
+    width: 50%;
+    height: 150px;
+    background-color: rgb(225, 34, 34)
+}
+
+.exp{
+    width: 100%;
+    height: 500px;
+    background-image: url(img\pata.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
